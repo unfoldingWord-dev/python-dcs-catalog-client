@@ -1,0 +1,4 @@
+update_client.sh
+update_client_exclude_list.txt
+.git
+.github
