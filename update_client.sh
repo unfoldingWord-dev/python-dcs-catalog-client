@@ -9,7 +9,7 @@ curl -H 'Content-type: application/json' -X POST -d "{\"options\": {\"packageNam
 
 unzip client.zip
 
-rsync -P -rvzc --delete --exclude-from={'update_client_exclude_list.txt'} python-client/ ./
+rsync -P -rvzc --delete --exclude-from="update_client_exclude_list.txt" python-client/ ./
 
 rm -rf python-client
 
