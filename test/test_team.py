@@ -16,12 +16,12 @@ from __future__ import absolute_import
 import unittest
 
 import dcs_catalog_client
-from dcs_catalog_client.models.release import Release  # noqa: E501
+from dcs_catalog_client.models.team import Team  # noqa: E501
 from dcs_catalog_client.rest import ApiException
 
 
-class TestRelease(unittest.TestCase):
-    """Release unit test stubs"""
+class TestTeam(unittest.TestCase):
+    """Team unit test stubs"""
 
     def setUp(self):
         pass
@@ -29,10 +29,10 @@ class TestRelease(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def testRelease(self):
-        """Test Release"""
+    def testTeam(self):
+        """Test Team"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = dcs_catalog_client.models.release.Release()  # noqa: E501
+        # model = dcs_catalog_client.models.team.Team()  # noqa: E501
         pass
 
 
