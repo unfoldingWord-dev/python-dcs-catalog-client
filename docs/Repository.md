@@ -33,6 +33,8 @@ Name | Type | Description | Notes
 **internal** | **bool** |  | [optional] 
 **internal_tracker** | [**InternalTracker**](InternalTracker.md) |  | [optional] 
 **language** | **str** |  | [optional] 
+**language_direction** | **str** |  | [optional] 
+**language_title** | **str** |  | [optional] 
 **mirror** | **bool** |  | [optional] 
 **mirror_interval** | **str** |  | [optional] 
 **mirror_updated** | **datetime** |  | [optional] 

@@ -11,6 +11,8 @@ Name | Type | Description | Notes
 **id** | **int** |  | [optional] 
 **ingredients** | **list[object]** |  | [optional] 
 **language** | **str** |  | [optional] 
+**language_direction** | **str** |  | [optional] 
+**language_title** | **str** |  | [optional] 
 **metadata_api_contents_url** | **str** |  | [optional] 
 **metadata_json_url** | **str** |  | [optional] 
 **metadata_url** | **str** |  | [optional] 
